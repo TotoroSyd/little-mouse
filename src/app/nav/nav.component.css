@@ -1,0 +1,33 @@
+nav {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "brand menu menu ";
+    width: 100%;
+    color: #fdf4e6;
+}
+.brand {
+    font-family: 'Sacramento', cursive;
+    font-size: 64px;
+    font-weight: 700;
+    grid-area: brand;
+    cursor: pointer;
+    padding-left: 14px;
+}
+
+li {
+list-style-type: none;
+float: right;
+}
+
+.list-item {
+    display: block;
+    text-align: center;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    font-size:x-large;
+    font-weight:bold;
+    grid-area: menu;
+}
