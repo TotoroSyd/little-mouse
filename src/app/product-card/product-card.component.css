@@ -1,0 +1,31 @@
+.card {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(6,1fr) ;
+    grid-template-areas: 
+    "image"
+    "image"
+    "image"
+    "image"
+    "image"
+    "product-add";
+
+}
+.image {
+    background-image: url(../../assets/Fresh_BrieFermier.jpg);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: image;
+    width: 100%;
+}
+.product-add {
+    grid-area: product-add;
+    width: 100%;
+}
+.product-price {
+    grid-area: product-price;
+    width: 100%;
+}
