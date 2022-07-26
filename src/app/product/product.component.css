@@ -1,0 +1,10 @@
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    height: 100%;
+}
+.item {
+    /* border: solid #230078; */
+    text-align: center;
+}
