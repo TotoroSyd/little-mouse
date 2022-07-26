@@ -10,7 +10,8 @@
     color: #230078;
     background-color: #fdf4e6;
     line-height: 2;
-    overflow: hidden;
+    overflow-y: auto;
+  
   }
 
   .welcome{
@@ -20,3 +21,12 @@
     height: 100vh;
     width: 100vw;
   }
+
+ footer {
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  background-color: #230078;
+  color: #fdf4e6;
+ }
+ 
