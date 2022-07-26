@@ -4,6 +4,10 @@ nav {
     grid-template-areas: "brand menu menu ";
     width: 100%;
     color: #fdf4e6;
+    position: sticky;
+    top: 0px;
+    z-index: 500;
+    background-color: #230078;
 }
 .brand {
     font-family: 'Sacramento', cursive;
@@ -24,6 +28,9 @@ float: right;
     text-align: center;
     padding: 30px 20px;
     cursor: pointer;
+}
+.list-item:hover {
+    text-decoration: underline;
 }
 
 .nav-menu {

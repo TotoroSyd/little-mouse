@@ -1,0 +1,20 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+
+}
+
+p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-brand {
+    font-family: 'Sacramento', cursive;
+    font-size: 46px;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left: 16px;
+ 
+}

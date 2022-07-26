@@ -1,0 +1,30 @@
+.add-cart {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "minus product-quantity product-quantity plus";
+    text-align: center;
+    width: 100%;
+}
+.minus {
+    grid-area: minus;
+    background-color: #230078;
+    color: #fdf4e6;
+    font-size: 24px;
+    font-weight: bold;
+}
+.plus {
+    grid-area: plus;
+    background-color: #230078;
+    color: #fdf4e6;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.minus:hover, .plus:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.product-quantity {
+    grid-area: product-quantity;
+}

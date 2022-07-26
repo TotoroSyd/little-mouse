@@ -1,0 +1,18 @@
+.dislay {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "display-category display-product display-product display-product";
+    padding: 2rem;
+    column-gap: 2rem;
+}
+
+.display-category {
+    grid-area: display-category;
+}
+
+.display-product {
+    grid-area: display-product;
+}
+
