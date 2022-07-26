@@ -1,0 +1,16 @@
+.category {
+
+    /* border: solid #230078; */
+}
+.category-item {
+    padding: 1rem;
+}
+.category-item:hover {
+    background-color: #230078;
+    cursor: pointer;
+    color: #fdf4e6;
+    font-weight: bold;
+    border: none;
+    opacity: 0.7;
+    transition-duration: 1s;
+}
