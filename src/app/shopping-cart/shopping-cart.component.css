@@ -1,0 +1,31 @@
+.shopping-cart {
+    border-radius: 12px;
+    padding: 5rem;
+    background-color: #230078;
+    color: #fdf4e6;
+    width: 100%;
+}
+h1 {
+    font-size: 40px;
+}
+.shopping-cart-noti-statement {
+    width: 100%;
+    display: grid;
+    margin: 2rem;
+    margin-left: 0;
+    text-align: left;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    grid-template-areas:"cart-noti-statement cart-noti-statement cart-noti-statement cart-noti-statement clear-cart-button" ;
+
+}
+
+
+.shopping-cart-noti-statement button {
+    grid-area: clear-cart-button;
+}
+
+
+.shopping-cart-noti-statement p {
+    grid-area: cart-noti-statement;
+}

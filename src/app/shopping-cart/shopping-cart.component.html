@@ -1,1 +1,38 @@
-<p>shopping-cart works!</p>
+<div class="shopping-cart">
+  <h1>Shopping Cart</h1>
+  <section class="shopping-cart-noti-statement">
+    <p>You have 6 items in your cart.</p>
+    <button type="button" value="clear-cart">Clear cart</button>
+  </section>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Item</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+        <th scope="col">Total</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="table-item">Berry's Creek Tarwin Blue</td>
+        <td><app-add-cart></app-add-cart></td>
+        <td>15</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td class="table-item">Burrata</td>
+        <td><app-add-cart></app-add-cart></td>
+        <td>13</td>
+        <td>26</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <td colspan="3" class="table-total">Total</td>
+      <td>56</td>
+    </tfoot>
+  </table>
+  <button type="button" value="checkout">Check out</button>
+</div>
