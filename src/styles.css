@@ -1,4 +1,8 @@
 /* Default */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -67,7 +71,8 @@ tfoot {
   padding-left: 1rem;
 }
 
-.checkout {
+.checkout .main-shipping{
   margin: 5rem;
-
 }
+
+/*Shipping*/
