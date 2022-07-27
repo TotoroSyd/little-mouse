@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { ShippingDetailsComponent } from './shipping-details/shipping-details.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { ShippingDetailsComponent } from './shipping-details/shipping-details.co
     ShoppingCartComponent,
     ShippingComponent,
     ShippingDetailsComponent,
+    ThankYouComponent,
    
   ],
   imports: [
