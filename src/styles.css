@@ -30,3 +30,44 @@
   color: #fdf4e6;
  }
  
+button {
+  padding: 0.5rem;
+  border-radius: 12px;
+  background-color: #fdf4e6;
+  width:max-content;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color:#230078;
+  color:#fdf4e6;
+}
+
+/*Shopping Cart*/
+table {
+  text-align: center;
+  width: 100%;
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+
+th {
+  border-bottom: #fdf4e6 solid;
+}
+td {
+  height: 50px;
+}
+tfoot {
+  font-size: 30px;
+  background-color:  #fdf4e6;
+  color: #230078;
+}
+.table-item, .table-total {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.checkout {
+  margin: 5rem;
+
+}

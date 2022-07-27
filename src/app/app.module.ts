@@ -12,6 +12,7 @@ import { ProductCardComponent } from './product-card/product-card.component';
 import { PriceCardComponent } from './price-card/price-card.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { CheckoutRowComponent } from './checkout-row/checkout-row.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
     ProductCardComponent,
     PriceCardComponent,
     FooterComponent,
-    ShoppingCartComponent
+    ShoppingCartComponent,
+    CheckoutRowComponent
   ],
   imports: [
     BrowserModule
