@@ -12,7 +12,9 @@ import { ProductCardComponent } from './product-card/product-card.component';
 import { PriceCardComponent } from './price-card/price-card.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
-import { CheckoutRowComponent } from './checkout-row/checkout-row.component';
+import { ShippingComponent } from './shipping/shipping.component';
+import { ShippingDetailsComponent } from './shipping-details/shipping-details.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { CheckoutRowComponent } from './checkout-row/checkout-row.component';
     PriceCardComponent,
     FooterComponent,
     ShoppingCartComponent,
-    CheckoutRowComponent
+    ShippingComponent,
+    ShippingDetailsComponent,
+   
   ],
   imports: [
     BrowserModule
