@@ -1,8 +1,8 @@
 .shipping {
-    /* border-radius: 12px; */
+    border-radius: 12px;
     padding: 5rem;
-    /* background-color: #230078;
-    color: #fdf4e6; */
+  
+    /* color: #fdf4e6; */
     color: #230078;
     width: 100%;
 }

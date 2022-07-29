@@ -65,18 +65,22 @@ th {
 td {
   height: 50px;
 }
+
 tfoot {
   font-size: 30px;
-  background-color:  #fdf4e6;
-  color: #230078;
+  background-color:  #230078;
+  color:  #fdf4e6;
 }
+
 .table-item, .table-total {
   text-align: left;
   padding-left: 1rem;
 }
 
-.checkout .main-shipping{
-  margin: 5rem;
+
+.checkout, .main-shipping, .confirm {
+  padding: 3rem;
+  height: 100vh;
 }
 
-/*Shipping*/
+
